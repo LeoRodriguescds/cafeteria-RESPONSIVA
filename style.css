@@ -8,11 +8,11 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 62.5%;
-    background-color: #000;
+    background-color: #fff;
     background-attachment: fixed;
 }
 
-#btn-mobile {
+.mobile-menu {
     display: none;
 }
 
@@ -29,10 +29,6 @@ header {
 
 div#logotipo {
     display: inline-block;
-}
-
-.navbar-mobile {
-    display: none;
 }
 
 .navbar-desktop {
@@ -437,7 +433,7 @@ main div.cafes{
 /* CONTATO START */
 .contato {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, 1fr);
 
     background-color: #251615;
@@ -452,11 +448,13 @@ main div.cafes{
 }
 
 .contato h1 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
 
     font-size: 2rem;
-    margin-left: 38vw;
+    margin-left: 20vw;
     margin-top: 2vh;
 }
 
@@ -645,16 +643,254 @@ main div.cafes {
     margin-left: 20vw;
 }
 
+.mapa {
+    margin-left: 20vw;
+}
+
 }
 
 @media (max-width: 600px) {
-    .navbar-desktop {
-        display: none;
+
+    html {
+        font-size: 50%;
+    }    
+
+    .expresso h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 17vw;
+    }
+    .expresso p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
     }
 
-    .navbar-mobile {
-        display: block;
+    .expresso img {
+        position: absolute;
+        top: 185vh;
+        left: 30vw;
     }
 
+    .cappuccino h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 17vw;
+        margin-top: 2vh;
+    }
+    .cappuccino p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+    }
+
+    .cappuccino img {
+        position: absolute;
+        top: 212vh;
+        left: 30vw;
+    }
+
+    .moccha h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 17vw;
+        margin-top: 6vh;
+    }
+    .moccha p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+        margin-top: 4vh;
+    }
+
+    .moccha img {
+        position: absolute;
+        top: 250vh;
+        left: 30vw;
+    }
+
+    .latte h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 17vw;
+        margin-top: 6vh;
+    }
+    .latte p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+        margin-top: 4vh;
+    }
+
+    .latte img {
+        position: absolute;
+        top: 275vh;
+        left: 28vw;
+    }
+
+    #ver-mais{
+        line-height: 50vh;
+    }
+
+    .sobremesas {
+        margin-top: 10vh;
+    }
+
+    .bolo h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 15vw;
+    }
+    .bolo p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+    }
+
+    .bolo img {
+        position: absolute;
+        top: 416vh;
+        left: 30vw;
+    }
+
+    .cheesecake h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 15vw;
+    }
+    .cheesecake p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+    }
+
+    .cheesecake img {
+        position: absolute;
+        top: 446vh;
+        left: 30vw;
+    }
+
+    .padra h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 15vw;
+    }
+    .padra p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+    }
+
+    .padra img {
+        position: absolute;
+        top: 483vh;
+        left: 30vw;
+    }
+
+    .torta-choc h2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        margin-left: 15vw;
+        margin-top: 2vh;
+    }
+    .torta-choc p{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 25vw;
+    }
+
+    .torta-choc img {
+        position: absolute;
+        top: 510vh;
+        left: 30vw;
+    }
+
+    .contato {
+        height: 80vh;
+    }
+
+    .mapa {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 8;
+    
+        margin-top: 0vh;
+        margin-left: 10vw;
+    }
+
+    #whats {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+    }
+
+    #insta {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 30vw;
+    }
+
+    #twit {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        margin-left: 50vw;
+    }
 }
 /*-------MEDIA QUERIES END--------*/
