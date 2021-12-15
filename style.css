@@ -655,6 +655,16 @@ main div.cafes {
         font-size: 50%;
     }    
 
+    nav ul {
+        font-size: 1.5rem;
+        margin-left: 5vw;
+    }
+
+    .sobre img {
+        position: absolute;
+        left: 50vw;
+    }
+
     .expresso h2{
         grid-column-start: 2;
         grid-column-end: 5;
@@ -674,7 +684,7 @@ main div.cafes {
 
     .expresso img {
         position: absolute;
-        top: 185vh;
+        top: 190vh;
         left: 30vw;
     }
 
@@ -698,7 +708,7 @@ main div.cafes {
 
     .cappuccino img {
         position: absolute;
-        top: 212vh;
+        top: 220vh;
         left: 30vw;
     }
 
@@ -723,7 +733,7 @@ main div.cafes {
 
     .moccha img {
         position: absolute;
-        top: 250vh;
+        top: 256vh;
         left: 30vw;
     }
 
@@ -748,7 +758,7 @@ main div.cafes {
 
     .latte img {
         position: absolute;
-        top: 275vh;
+        top: 282vh;
         left: 28vw;
     }
 
@@ -779,7 +789,7 @@ main div.cafes {
 
     .bolo img {
         position: absolute;
-        top: 416vh;
+        top: 425vh;
         left: 30vw;
     }
 
@@ -802,7 +812,7 @@ main div.cafes {
 
     .cheesecake img {
         position: absolute;
-        top: 446vh;
+        top: 452vh;
         left: 30vw;
     }
 
@@ -825,7 +835,7 @@ main div.cafes {
 
     .padra img {
         position: absolute;
-        top: 483vh;
+        top: 488vh;
         left: 30vw;
     }
 
@@ -849,7 +859,7 @@ main div.cafes {
 
     .torta-choc img {
         position: absolute;
-        top: 510vh;
+        top: 515vh;
         left: 30vw;
     }
 
@@ -864,11 +874,11 @@ main div.cafes {
         grid-row-end: 8;
     
         margin-top: 0vh;
-        margin-left: 10vw;
+        margin-left: 1vw;
     }
 
     #whats {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
@@ -881,7 +891,7 @@ main div.cafes {
         grid-row-start: 2;
         grid-row-end: 2;
 
-        margin-left: 30vw;
+        margin-left: 10vw;
     }
 
     #twit {
